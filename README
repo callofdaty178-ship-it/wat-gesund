@@ -1,0 +1,19 @@
+# 🎮 JumpStars – Kinder in Bewegung bringen
+
+JumpStars ist ein kleines Bewegungsspiel für Kinder mit **Expo / React Native**.  
+Punkte gibt es für Bewegung (Sprünge/Schütteln) via **Accelerometer**.
+
+## ✨ Features
+- 30/60s-Runden mit Timer
+- Punkte & Highscore (lokal gespeichert)
+- Spielmodi: Jump, Shake, Freeze
+- Sounds (Treffer/Ende), einfache Animationen
+- Optional: 2-Spieler-Wettkampf
+
+## 🛠️ Installation
+```bash
+npm i -g expo-cli
+expo init jumpstars
+cd jumpstars
+npm i expo-sensors @react-native-async-storage/async-storage expo-av
+npx expo start
